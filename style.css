@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background-color: #12181B;
+    height: 110%;
+    /* Set height to 100% to fill the entire page */
+    padding-top: 0.1px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    /* Adjust font size for smaller screens */
+    margin-top: 5%;
+    /* Adjust margin-top to position the title closer to the top */
+}
+
+.display {
+    color: white;
+    font-size: 20px;
+    /* Adjust font size for smaller screens */
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* Use auto-fit to adjust column count based on screen width */
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    /* Use auto-fit to adjust row count based on screen height */
+    max-width: 300px;
+    padding: 20px;
+    /* Add padding to create some space around the container */
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* Adjust font size for smaller screens */
+    cursor: pointer;
+}
+
+.playerX {
+    color: #bd1fdd;
+}
+
+.playerO {
+    color: #a4b813;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    /* Adjust font size for smaller screens */
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}
