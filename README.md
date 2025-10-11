@@ -39,7 +39,4 @@ The focus was on clean UI, modular JavaScript logic, and intuitive user experien
 
 ---
 
-## 📂 Project Structure
-
-
 
